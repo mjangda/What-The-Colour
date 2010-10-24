@@ -1,0 +1,110 @@
+.container {
+	text-align: center;
+	width: 600px;
+	margin: 0 auto;
+	font-size: 20px;
+}
+
+h2 {
+	background: #ECD078;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+}
+
+.loading {
+	font-size: 20px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	background: #F38630;
+	color: #fff;
+}
+.hidden {
+	display: none;
+}
+#clUser {
+	font-style: italic;
+}
+#clUser:focus {
+	font-style: normal;
+}
+
+#clActions {
+	font-size: 12px;
+}
+
+.clPalette {
+	margin: 0 auto;
+	width: 500px;
+	margin-bottom: 30px;
+}
+
+.clColorPalette {
+	overflow: hidden;
+}
+	.clColorSingle {
+		width: 100px;
+		height: 100px;
+		float: left;
+	}
+		.clColorSingle span {
+			display: block;
+			color: #fff;
+			text-align: center;
+			font-size: 20px;
+			line-height: 18px;
+			margin: 40px 0; 
+			text-transform: lowercase;
+		}
+.clImagePalette {
+	overflow: hidden;
+	width: 500px; /* 5 * width of single */
+	height: 100px;
+}	
+	.clImageSingle {
+		float: left;
+		width: 100px;
+		height: 100px;
+		overflow: hidden;
+		/*position: relative;*/
+	}
+		.clImageSingle img {
+			width: 100px;
+			height: 100px;
+			/*
+			position: absolute;
+			top: 0;
+			left: 0;
+			*/
+		}	
+		
+		
+.clear { /* generic container (i.e. div) for floating buttons */
+    overflow: hidden;
+    width: 100%;
+}
+
+a.button,
+a.button:visited {
+	background:#F38630;
+	color:#FFFFFF;
+	font-weight:bold;
+	-moz-border-radius:11px 11px 11px 11px;
+	-webkit-border-radius: 11px 11px 11px 11px;
+	border:1px solid #D95B43;
+	cursor:pointer;
+	font-family:"Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	font-size:12px;
+	margin-top:-3px;
+	padding:3px 10px;
+	text-decoration:none;
+	font-size: 14px;
+}
+a.button:hover,
+a.button:active {
+	color: #F38630;
+	background: #fff;
+}
